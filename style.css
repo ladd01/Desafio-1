@@ -1,0 +1,135 @@
+* {
+    font-family: "inter";
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+}
+
+#menusuperior {
+    background-color: #303030;
+    color: #F9F9F9;
+    padding-top: 30px;  
+}
+
+#titulo-menusuperior {
+    padding-left: 62px;
+    height: 60px;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: -2.5%;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    line-height: 72px;
+}
+
+#texto-menusuperior {
+    padding-top: 10px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 150px;
+    margin-top: 10px;
+    line-height: 28px;
+    Width:1024px;
+}
+
+#menuinformacional {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#menuinformacional div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.bolder {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0;
+}
+
+.text {
+    color: #000000;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#menuimagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuimagem div {
+    gap: 5px;
+    margin: 20px;
+}
+
+#menuimagem .divesquerda {
+    width: 60%;
+    margin-left: 50px;
+}
+
+#menuimagem .divdireita {
+    width: 40%;
+}
+
+#imagen {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#formulario {
+    text-align: center;
+    background-color: #303030;
+    color: #F9F9F9;
+    width: 1200px;
+    height: 400px;
+    top: 1200px;
+    gap: 0px;
+    opacity: 0px;
+    padding-bottom: 40px;
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    margin-top: 80px;
+}
+
+input {
+    width: 408px;
+    height: 42px;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    background: #C07212;
+    width: 308px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
